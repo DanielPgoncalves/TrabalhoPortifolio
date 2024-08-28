@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portifólio</title>
+</head>
+<body>
+    <header class="cabecalho"> <!--Cabeçalho do site-->
+        <p id="logotipo"><span>Meu Portifólio</span></p>
+        <nav class="cabecalho">
+            <ul class="barra__navegacao">
+                <li><a href="#contato1">Contato</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#projetos1">Projetos</a></li>
+                <li><a href="#formacao">Formação profissional</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container__principal">
+        <div class="secao__principal">
+            <h3> <span class="estilizacao__secao_principal">Olá,</span> me chamo</h3>
+            <h2>Daniel Pereira</h2>
+            <p>Seja bem vindo ao meu Portifólio</p>
+            <button class="botao__contato1">Entre em contato</button>
+        </div>
+    </div>
+    <div class="secao__sobre__mim">
+        <p class="titulo__sobre__mim" id="sobremim">Sobre <!--Utilizei o span para poder estilizar uma palavra em específico em um parágrafo--><span class="titulo__sobre__mim__estilizacao">mim</span></p>
+        <p class="texto__sobre__mim">Olá! Meu nome é Daniel Pereira Gonçalves e tenho 19 anos. Atuo como Analista de Redes e Suporte Técnico em uma empresa de telecomunicações, onde me dedico a resolver desafios técnicos e a melhorar a infraestrutura de rede.
+        Além da minha carreira em tecnologia, gosto da prática de atividades físicas, incluindo musculação e corrida, e que me ajudam a manter um equilíbrio saudável entre corpo e mente.
+        Desde a infância, a música tem sido uma parte fundamental da minha vida. Toco violino e, como professor voluntário de música, compartilho meu entusiasmo pela arte com outras pessoas. Atualmente, estou aprofundando meus estudos em tecnologia, focando em análise e tratamento de dados e no desenvolvimento web.
+        Estou sempre aberto a novas oportunidades e desafios que me permitam crescer e me desenvolver tanto profissional quanto pessoalmente.
+        </p>
+    </div>
+    <div class="secao__cursos">
+        <p class="formacao__titulo" id="formacao">Formação profissional</p>
+        <div class="cards__cursos"> <!--Contruí uma seção com cards para agrupar minhas formações profissionais-->
+            <div class="cursos">
+                <p class="titulo__curso">Técnico em Logística<br>jan 2021 - dez 2022</p>
+                <p class="instituicao__curso">Instituto F. de Educação, Ciência e Tecnologia de São Paulo - IFSP</p>
+            </div>
+            <div class="cursos">
+                <p class="titulo__curso">Assitente administrativo <br>jan 2021 - dez 2023</p>
+                <p class="instituicao__curso">SENAI "Ítalo Bologna" - Itu/SP</p>
+            </div>
+            <div class="cursos">
+                <p class="titulo__curso">Tecnologia em Análise e Desenvolvimento de Sistemas jan 2024 - jul 2026</p>
+                <p class="instituicao__curso">Centro Universitário Internacional</p>
+            </div>
+            <div class="cursos">
+                <p class="titulo__curso">Formação Desenvolva aplicações Web com JavaScript - Jul 2024</p>
+                <p class="instituicao__curso">Alura</p>
+            </div>
+        </div>
+    </div>
+    <div id="#projetos" class="meus__projetos">
+        <p class="titulo__projetos" id="projetos1">Projetos recentes</p>
+        <div class="projetos__cards">   
+            <div class="projetos">
+                <p class="nome__projeto">Site de reconhecimento de voz</p>
+                <p class="paragrafo__projetos">Neste projeto utilizei o básico de HTML e CSS e JavaScript com algumas API`s para realizar reconhecimento de voz</p>
+                <button class="botao__projetos"><a href="https://danielpgoncalves.github.io/SecretNumberGame/">Acesse meu site</a></button>
+            </div>
+            <div class="projetos">
+                <p class="nome__projeto" id="projetos1">Meu Portifólio</p>
+                <p class="paragrafo__projetos">Este projeto é um trabalho para a faculdade na matéria de desenvolvimento web, utilizei tecnologias como, HTML, CSS e o básico de JavaScript</p>
+                <button class="botao__projetos"><a href="index.html">Acesse meu site</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="secao__formulario">
+        <div class="contato">
+            <p class="entre__contato" id="contato1">Entre em contato</p>
+            <p class="texto__contato">Vamos conversar! Se você está interessado em colaborar em um projeto, tem alguma pergunta, ou simplesmente quer dizer olá, sinta-se à vontade para me enviar uma mensagem.
+            Estou sempre aberto a novas oportunidades e adoraria ouvir suas ideias. Preencha o formulário abaixo, e responderei o mais rápido possível.</p>
+        </div>
+        <div class="formulario">
+            <form class="formulario__contato">
+                <label>Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off">
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu melhor e-mail" autocomplete="off">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite uma mensagem..."></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer class="rodape">
+        <ul class="lista__rodape">
+            <li class="rodape__item"><a href="#contato1">Contato</a></li>
+            <li class="rodape__item"><a href="#sobremim">Sobre mim</a></li>
+            <li class="rodape__item">Boituva, São Paulo</li>
+        </ul>
+    </footer>
+</body>
+</html>

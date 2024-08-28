@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #1e2749;
+    display: inline-block;
+}
+
+.cabecalho{
+    display: flex;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: #273469;
+}
+
+.barra__navegacao{
+    list-style: none;
+    margin-left: 600px; 
+    position: absolute;
+    width: 650px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.barra__navegacao a{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+.barra__navegacao li{
+    display: inline-block;
+    padding: 25px;
+    font-size: 15px;
+}
+
+#logotipo{
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+    height:20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #f8f9fa;
+}
+.container__principal{
+    display: inline-block;
+}
+.secao__principal{
+    margin-left: 150px;
+    margin-top: 150px;
+    color: #f8f9fa;
+}
+
+.secao__principal h3{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.secao__principal h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.estilizacao__secao_principal{
+    color:#306bac;
+}
+
+.secao__principal p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #f8f9fa;
+}
+
+.botao__contato1{
+    border: none;
+    margin-top: 45px;
+    right: 20px;
+    background-color: #065a82;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.secao__sobre__mim{
+    display: inline-block;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background-color: #f8f9fa;
+    height: 750px;
+}
+
+.titulo__sobre__mim{
+    display: block;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0E1626;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 45px;
+}
+
+.texto__sobre__mim{
+    width: 70%;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left:100px;
+    color:#0E1626;
+}
+
+.formacao__titulo{
+    color:#f8f9fa;
+    font-weight: 700;
+    font-size:55px;
+    margin: 0px 0px 50px 80px;
+}
+
+.cards__cursos{
+    display: flex;
+    margin-top: 15px;
+}
+
+.cursos{
+    background-color: #f8f9fa;
+    height: 380px;
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 6px 6px 6px 6px rgba(0, 12, 38, 0.804); 
+} 
+
+.titulo__curso{
+    margin-top:45px;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 25px;
+    color:var(--cor-escura);
+    text-align: left;
+}
+
+.instituicao__curso{
+    font-weight: 600;
+    text-align:left;
+    font-size: 22px;
+}
+
+.meus__projetos{
+    display: inline-block;
+    margin-top: 80px;
+    height: 750px;
+    width: 100%;
+    background-color: #f8f9fa ;
+}
+
+.projetos__cards{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+
+.titulo__projetos{
+    display: flex;
+    font-size: 55px;
+    font-weight: 700;
+    color: #0E1626;
+    height: 80px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.paragrafo__projetos{
+    width: 80%;
+    font-weight: 600;
+}
+
+.projetos{
+    padding: 65px;
+    width: 700px;
+    display: block;
+    height: 350px;
+}
+
+.nome__projeto{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color:var(--cor-escura);
+}
+
+.botao__projetos{
+    background-color: #273469;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.botao__projetos a{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.botao__github{
+    border: none;
+    margin-top: 25px;
+    mix-blend-mode: multiply;
+    border-radius:100px;
+    cursor: pointer ;
+    width: 50px;
+    height: 50px;
+}
+
+.texto__github{
+    color: var(--cor-escura);
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.secao__formulario{
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+
+.formulario__contato{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color:#273469;
+    border-radius: 15px;
+    color: #f8f9fa;
+}
+
+.formulario__contato label{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--background-color);
+}
+
+.formulario__contato input{
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.formulario__contato textarea{
+    border-radius: 10px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.formulario__contato button{
+    margin-top: 40px;
+    border-radius: 15px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #f8f9fa;
+    margin-bottom: 25px;
+    color: #273469;
+    cursor: pointer;
+}
+
+.entre__contato{
+    font-size: 50px;
+    padding: 85px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #f8f9fa;
+}
+
+.texto__contato{
+    font-size: 25px;
+    margin-left: 105px;
+    width: 600px;
+    font-weight: 450;
+    color: #f8f9fa;
+}
+
+.contato{
+    margin-left: 10px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.formulario{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 65px;
+}
+
+.rodape{
+    background-color: #273469;
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+.lista__rodape{
+    list-style: none;
+    margin-top: 35px;
+}
+
+.rodape__item{
+    display: inline;
+    padding: 25px;
+    font-weight: 500;
+    color: #f8f9fa;
+}
+
+.rodape__item a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #f8f9fa;
+}
